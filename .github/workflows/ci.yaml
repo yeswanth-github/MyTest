@@ -27,4 +27,11 @@ jobs:
           npm install
           cd ../frontend
           npm install
+
+      - name: Build application
+        run:
+          cd frontend
+          npm build
+          cd ../frontend
+          npm build
          
